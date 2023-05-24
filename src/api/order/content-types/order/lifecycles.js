@@ -30,7 +30,7 @@ module.exports = {
 
         let mail = {
             to: process.env.ADMIN_MAIL,
-            //cc:order.user.email,
+            cc:order.user.email,
             from: "henrypfgaming@gmail.com",
             subject: "Nueva Compra ",
             html: `<div style="font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
